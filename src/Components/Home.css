@@ -1,0 +1,52 @@
+.Home {
+    height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top,  rgba(109, 23, 203, 0.7), rgba(40, 118, 249, 0.7)), url(C:/Users/Administrator/Desktop/JoseyDPortfolio/joseyd-portfolio/src/Images/GoldenBday.jpg) no-repeat top center;
+    background-size: cover;
+}
+
+.HomeText {
+    padding-right: 20%;
+}
+
+h2{
+    font-family: 'Lobster Two', cursive;
+    
+    color: #c6e2ff;
+    animation: neon .08s ease-in-out infinite alternate;
+    line-height: 0px;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.9vh;
+    padding-left: 20%;
+    color: rgba(202,228,225);
+}
+    @keyframes neon {
+        from {
+          text-shadow:
+          0 0 6px rgba(202,228,225,0.92),
+          0 0 30px rgba(202,228,225,0.34),
+          0 0 12px rgba(30,132,242,0.52),
+          0 0 21px rgba(30,132,242,0.92),
+          0 0 34px rgba(30,132,242,0.78),
+          0 0 54px rgba(30,132,242,0.92);
+        }
+        to {
+          text-shadow:
+          0 0 6px rgba(202,228,225,0.98),
+          0 0 30px rgba(202,228,225,0.42),
+          0 0 12px rgba(30,132,242,0.58),
+          0 0 22px rgba(30,132,242,0.84),
+          0 0 38px rgba(30,132,242,0.88),
+          0 0 60px rgba(30,132,242,1);
+        }
+      }
+
+
+  
