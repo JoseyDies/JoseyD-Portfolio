@@ -8,7 +8,6 @@ import Contact from "./Components/Contact";
 import Resume from "./Components/Resume";
 import Navigation from "./Components/Navigation";
 import Footer from "./Components/Footer";
-import Home from "./Components/Home";
 
 
 function App() {
