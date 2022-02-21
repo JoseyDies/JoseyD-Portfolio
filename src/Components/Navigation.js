@@ -9,10 +9,10 @@ const Navigation = () => {
 
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" variant="dark" className="position-absolute top-0 end-0 navbar">
-         <Navbar.Toggle />
-         <Navbar.Collapse bg="dark">
-            <Nav className="me-auto">
+      <Navbar collapseOnSelect expand="sm" variant="dark" className="position-absolute top-0 end-0 navbar">
+         <Navbar.Toggle style={{paddingLeft: "20%"}}/>
+         <Navbar.Collapse className="">
+            <Nav className="me-auto nav hover-zoom">
               <Nav.Link as={Link} to="/">
                 Home
               </Nav.Link>

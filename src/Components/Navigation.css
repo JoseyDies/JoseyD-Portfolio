@@ -1,7 +1,20 @@
 .navbar {
-    padding-right: 15%;
+    padding-right: 2%;
     position: fixed;
     font-family: 'Oswald', sans-serif;
-    font-size: 3.0vh;
+    font-size: 3.5vh;
+    z-index: 3;
     
   }
+
+
+  nav {
+    color: red;
+    transition: .5s;
+  }
+  
+  nav:hover {
+    color: #9e9596;
+    text-shadow: 0 0 10px #FF3E41;
+  }
+
