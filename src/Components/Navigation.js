@@ -2,6 +2,7 @@ import React, { useState, handleClick } from "react";
 import { Nav, Navbar, Container, Row, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Navigation.css";
+import pdf from "./JDiesResume2.22PDF.pdf";
 
 const Navigation = () => {
   const [click, setClick] = useState(false);
