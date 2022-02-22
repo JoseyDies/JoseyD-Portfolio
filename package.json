@@ -1,7 +1,9 @@
 {
   "name": "joseyd-portfolio",
-  "homepage": "https://joseyd-portfolio.com",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.17.6"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
