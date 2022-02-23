@@ -1,12 +1,12 @@
 import React, { useState, handleClick } from "react";
-import { Nav, Navbar, Container, Row, NavDropdown } from "react-bootstrap";
+import { Nav, Navbar} from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Navigation.css";
 import pdf from "./JDiesResume2.22PDF.pdf";
 
 const Navigation = () => {
-  const [click, setClick] = useState(false);
-  const handleClick = () => setClick(!click);
+  
+ 
 
   return (
     <>
@@ -26,9 +26,9 @@ const Navigation = () => {
               <Nav.Link as={Link} to="/projects">
                 Projects
               </Nav.Link>
-              <Nav.Link as={Link} to="/resume">
-                Resume
-              </Nav.Link>
+              
+                <a href={pdf} target="_blank" rel="noreferrer" style={{textDecoration: "none", color: "rgba(255,255,255,.55)", paddingRight: "0.5rem", paddingLeft: "0.5rem", paddingTop: "0.5rem"}}>Resume</a>
+              
               <Nav.Link as={Link} to="/contact">
                 Contact
               </Nav.Link>
